@@ -65,9 +65,8 @@ function Faq() {
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
               <AccordionBody className="font-bal text-xs  sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
-                Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
-                sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
-                ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
+              Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
+                sapien vel cursus ultricies?
               </AccordionBody>
             </Accordion>
           </div>
@@ -88,9 +87,8 @@ function Faq() {
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
               <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
-                Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
-                sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
-                ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
+              Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
+                sapien vel cursus ultricies?
               </AccordionBody>
             </Accordion>
           </div>
@@ -110,9 +108,8 @@ function Faq() {
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
               <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
-                Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
-                sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
-                ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
+              Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
+                sapien vel cursus ultricies?
               </AccordionBody>
             </Accordion>
           </div>
@@ -131,10 +128,9 @@ function Faq() {
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs sm:text-sm md:text-text font-medium text-white max-w-[600px] pt-3 ">
-                Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
-                sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
-                ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
+              <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
+                sapien vel cursus ultricies?
               </AccordionBody>
             </Accordion>
           </div>
@@ -154,9 +150,8 @@ function Faq() {
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
               <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
-                Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
-                sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
-                ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
+              Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
+                sapien vel cursus ultricies?
               </AccordionBody>
             </Accordion>
           </div>
