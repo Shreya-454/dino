@@ -25,9 +25,9 @@ const Preloader = () => {
           </h2>
           <div class="flex gap-2 items-center">
             <span class="sr-only">Loading...</span>
-            <div class="h-8 w-8 bg-[#56DB2A] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-            <div class="h-8 w-8 bg-[#56DB2A] rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-            <div class="h-8 w-8 bg-[#56DB2A] rounded-full animate-bounce"></div>
+            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce"></div>
           </div>
         </div>
       </div>

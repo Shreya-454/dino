@@ -39,7 +39,7 @@ function Faq() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div id="Faq" className="relative bg-[#0A4740] mt-[-1px]">
+    <div id="Faq" className="relative bg-[#0A4740] mt-[-1px] pb-4">
       <div className="max-w-[1140px] mx-auto px-3  lg:pt-[310px] md:pt-[200px] sm:pt-[150px] pt-[100px]">
         <h2 className="sm:text-[64px] text-[40px] leading-[132%] text-center font-normal font-chewy text-white lg:mb-[61px] mb-[35px]">
           FAQs
@@ -141,7 +141,7 @@ function Faq() {
           <div data-aos-duration="1000"
              data-aos="fade-left">
             <Accordion
-              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] mb-4 sm:pb-[27px] sm:ps-[26px] ${
                 open === 5 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 5}
