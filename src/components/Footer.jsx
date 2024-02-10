@@ -1,8 +1,8 @@
 import React from "react";
 import FooterForest from "../assets/images/footerforestimg.webp";
-import footertwit from "../assets/images/footertwitr.svg";
-import footerdis from "../assets/images/footerdiscord.svg";
-import footerins from "../assets/images/footerinsta.svg";
+import footertwit from "../assets/images/svg/footertwitr.svg";
+import footerdis from "../assets/images/svg/footerdiscord.svg";
+import footerins from "../assets/images/svg/footerinsta.svg";
 import footerdino from "../assets/images/footerdino.webp";
 
 const Footer = () => {

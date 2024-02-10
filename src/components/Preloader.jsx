@@ -23,11 +23,11 @@ const Preloader = () => {
               G
             </span>
           </h2>
-          <div class="flex gap-2 items-center">
-            <span class="sr-only">Loading...</span>
-            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-            <div class="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce"></div>
+          <div className="flex gap-2 items-center">
+            <span className="sr-only">Loading...</span>
+            <div className="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+            <div className="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+            <div className="h-8 w-8 bg-[#8EC627] rounded-full animate-bounce"></div>
           </div>
         </div>
       </div>

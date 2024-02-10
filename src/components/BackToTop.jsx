@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backtopicon from "../assets/images/uparrow.svg";
+import { Uparrow } from "./Icon";
 const BackToTop = () => {
     const [visible, setVisible] = useState(false);
 
@@ -28,7 +28,7 @@ const BackToTop = () => {
                     display: visible ? "flex " : "none",
                 }}
             >
-                <svg xmlns="http://www.w3.org/2000/svg" className="fill-white sm:w-[30px] sm:h-[30px]" height="24" viewBox="0 -960 960 960" width="24"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg>
+                <Uparrow/>
             </button>
         </div>
     );
