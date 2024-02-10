@@ -63,7 +63,7 @@ const MyNav = () => {
           <li className="lg:hidden flex" onClick={view}>
             <a
               href=""
-              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-9 pt-[11px] pb-[20px]"
+              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-10 pt-[11px] pb-[20px]"
             >
               Join Now
             </a>
@@ -229,7 +229,7 @@ const MyNav = () => {
           <li>
             <a
               href=""
-              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-9 pt-[10px] pb-[17px] lg:block hidden hover:text-white transition-all duration-500 ease-in-out"
+              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-10 pt-[10px] pb-[17px] lg:block hidden hover:text-white transition-all duration-500 ease-in-out"
             >
               Join Now
             </a>
