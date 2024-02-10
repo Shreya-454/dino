@@ -27,11 +27,9 @@ function App() {
     });
   }, []);
   return (
-    <div>
+    <>
       {data ? (
-        <div>
           <Preloader/>
-        </div>
       ) : (
         <div className="overflow-x-clip">
           <Header />
@@ -44,7 +42,7 @@ function App() {
           <BackToTop />
         </div>
       )}
-    </div>
+    </>
   );
 }
 
