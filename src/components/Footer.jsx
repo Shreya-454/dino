@@ -62,7 +62,7 @@ const Footer = () => {
         <img
           src={footerdino}
           alt="dino"
-          className="absolute right-[10%] animate-movebike3 lg:bottom-[2%] bottom-0 hidden md:block max-lg:w-[150px] max-lg:h-[200px]"
+          className="absolute right-[10%] animate-footer-dino lg:bottom-[2%] bottom-0 hidden md:block max-lg:w-[150px] max-lg:h-[200px]"
         />
       </div>
     </div>
