@@ -3,7 +3,7 @@ import roadmapimg from "../assets/images/RoadMapimg.webp";
 const Roadmap = () => {
   return (
     <div
-      className=" bg-[#09655A] relative z-[1] -mt-[2px] overflow-hidden"
+      className=" bg-[#09655A] relative z-[1] -mt-[1px] overflow-hidden"
       id="Roadmap"
     >
       <img

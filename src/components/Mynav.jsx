@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import twitr from "../assets/images/twitr.svg";
-import discord from "../assets/images/discord.svg";
-import insta from "../assets/images/insta.svg";
+
 const MyNav = () => {
   const [show, setShow] = useState(true);
   function view() {

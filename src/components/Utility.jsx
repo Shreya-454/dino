@@ -7,7 +7,7 @@ import TimelineLayer from "../assets/images/roadmaplayer.webp";
 
 const Utility = () => {
   return (
-    <div className="bg-[#0A4740] relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[230px] sm:pt-[150px] pt-[100px] pb-[150px]">
+    <div className="bg-[#0A4740] relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[230px] sm:pt-[150px] pt-[100px] pb-[150px] mt-[-1px]">
       <div className="container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10">
         <h2 className="font-chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]">
           Utility and Usecase

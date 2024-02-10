@@ -11,7 +11,9 @@
   -webkit-text-stroke-color: black;
 }
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 
 

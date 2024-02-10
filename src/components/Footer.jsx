@@ -8,7 +8,7 @@ import footerdino from "../assets/images/footerdino.webp";
 const Footer = () => {
   return (
     <div>
-      <div className="relative lg:pt-[248px] md:pt-[150px] sm:pt-[100px] pt-[100px] pb-[100px] lg:pb-[267px] md:pb-[150px] bg-[#0A4740]">
+      <div className="relative mt-[-1px] lg:pt-[248px] md:pt-[150px] sm:pt-[100px] pt-[100px] pb-[100px] lg:pb-[267px] md:pb-[150px] bg-[#0A4740]">
         <div
           data-aos="fade-down"
           data-aos-duration="1000"

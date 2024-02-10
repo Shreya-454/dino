@@ -10,7 +10,7 @@ import dargantooken from "../assets/images/TokenDragontoken.webp";
 import tokentree from "../assets/images/TokenLeftTree.webp";
 const Tokenomics = () => {
   return (
-    <div className="bg-[#0A4740] -mt-[2px] relative z-[1]" id="Tokenomic">
+    <div className="bg-[#0A4740] -mt-[1px] relative z-[1]" id="Tokenomic">
       <img
         src={toplayer}
         alt="toplyare"

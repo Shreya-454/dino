@@ -4,7 +4,7 @@ import righttree from "../assets/images/tree2.webp";
 import dragon from "../assets/images/cartoon.webp";
 const About = () => {
   return (
-    <div className="bg-[#09655A] relative z-[2] -mt-[2px]" id="about">
+    <div className="bg-[#09655A] relative z-[2] -mt-[1px]" id="about">
       <img
         src={lefttree}
         alt="lefttree"

@@ -3,7 +3,7 @@ import bg from "../assets/images/herobg.webp";
 const Preloader = () => {
   return (
     <div>
-      <div className=" h-screen fixed top-0 left-0 right-0 overflow-hidden flex justify-center items-center gap-4  bg-[url(./assets/images/herobg.webp)] bg-full bg-no-repeat bg-center flex-col">
+      <div className=" h-screen fixed top-0 left-0 right-0 overflow-hidden flex justify-center items-center gap-4  bg-[#0A4740] bg-full bg-no-repeat bg-center flex-col">
           <h2 className=" ff-lucky text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_3px_0px_#000]">
             D
             <span className="text-[#23AAAC] animate-bounce [animation-delay:-0.15s]">
