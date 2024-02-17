@@ -5,7 +5,7 @@ import dino2 from '../assets/images/dino2.webp'
 import MyNav from "./Mynav";
 const Header = () => {
   return (
-    <div className="bg-[url(./assets/images/herobg.webp)] md:bg-full bg-cover bg-center bg-no-repeat sm:min-h-screen relative overflow-x-clip max-sm:h-[600px] ">
+    <div className="bg-[url(./assets/images/herobg.webp)] bg-cover bg-center bg-no-repeat sm:min-h-screen relative overflow-x-clip max-sm:h-[600px] ">
        <img src={dino2} alt="dino" className=" absolute bottom-[18%] h-[165px] right-[40%] animate-herodino1 hidden sm:block" />
       <img src={dino1} alt="dino" className="absolute right-[10%]  md:bottom-[10%] bottom-0 animate-herodino2 max-sm:w-[200px] max-sm:h-[200px]" />
      
