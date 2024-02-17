@@ -11,7 +11,7 @@ const Roadmap = () => {
         alt="roadmapimg"
         className="max-sm:hidden 2xl:max-w-[991px] mx-auto absolute top-[10%] right-[0%] z-[-1] left-0  h-[89%] w-full"
       />
-      <div className="sm:hidden block absolute sm:left-[70px] left-[40px] bottom-0 top-[11%] h-[85%] w-[15px] border-l-[11px] border-dashed border-[#0a4740]"></div>
+      <div className="sm:hidden block absolute sm:left-[70px] left-[45px] bottom-0 top-[12%] h-[85%] w-[15px] border-l-[11px] border-dashed border-[#0a4740]"></div>
       <div className=" max-w-[1164px] px-3 mx-auto pb-[35px] sm:pb-[60px]">
         <h2
           data-aos="fade-down"
