@@ -7,7 +7,7 @@ import {
 import Faqlayer1 from "../assets/images/faqlayer1.webp";
 function Icon({ id, open }) {
   return (
-    // <div className="relative ">
+    <>
       <svg
         className={`${
           id === open ? "rotate-180" : "rotate-0"
@@ -30,7 +30,7 @@ function Icon({ id, open }) {
           fill="#0A4740"
         />
       </svg>
-    // </div>
+      </>
   );
 }
 function Faq() {
