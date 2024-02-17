@@ -42,7 +42,7 @@ const Tokenomics = () => {
         <h2
           data-aos="fade-down"
           data-aos-duration="1000"
-          className=" text-[64px] text-white text-center font-chewy leading-[83px]"
+          className=" sm:text-[64px] text-[40px] text-white text-center font-chewy leading-[83px]"
         >
           Tokenomics
         </h2>
@@ -75,7 +75,7 @@ const Tokenomics = () => {
             className=" flex justify-center max-lg:mt-[20px] max-lg:border-2 max-lg:backdrop-blur-sm border-[#FBA11D]  border-solid max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] items-center gap-[26px] lg:absolute top-[35px] left-[1%]"
           >
             <div className=" max-w-[189px] text-center lg:text-end">
-              <p className=" text-[#FBA11D] md:text-[32px] text:2xl font-normal md:leading-[38px] font-bal">
+              <p className=" text-[#FBA11D] md:text-[32px] text-2xl font-normal md:leading-[38px] font-bal">
                 333,333,333
               </p>
               <p className=" text-white font-normal text-lg md:text-2xl font-bal pt-[5px] md:leading-[33px]">

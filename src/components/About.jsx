@@ -36,13 +36,13 @@ const About = () => {
         </h2>
         <p
           data-aos="fade-down"
-          className=" font-bal text-white pt-[20px] sm:pt-[42px] font-normal text-2xl leading-[28px] text-center"
+          className=" font-bal text-white pt-[20px] sm:pt-[42px] font-normal sm:text-2xl text-lg sm:leading-[28px] text-center"
         >
           $DINO is a meme coin with very strong utility.
         </p>
         <p
           data-aos="fade-down"
-          className=" max-w-[560px] mx-auto font-bal text-white pt-[18px] font-normal text-2xl leading-[28px] text-center"
+          className=" max-w-[560px] mx-auto font-bal text-white pt-[18px] font-normal sm:text-2xl text-lg sm:leading-[28px] text-center"
         >
           Biggest problem of meme coins is lack of utility and usecase,
           <span className=" text-[#8EC627]"> $</span>
@@ -54,14 +54,14 @@ const About = () => {
         </p>
         <p
           data-aos="fade-down"
-          className=" max-w-[560px] mx-auto font-bal text-white pt-[10px] font-normal text-2xl leading-[28px] text-center"
+          className=" max-w-[560px] mx-auto font-bal text-white pt-[10px] font-normal sm:text-2xl text-lg sm:leading-[28px] text-center"
         >
           We want to bring a lot of usecases and utility to $DINO holders, just
           sit back and relax.
         </p>
         <p
           data-aos="fade-down"
-          className=" max-w-[560px] mx-auto font-bal text-white pt-[14px] pb-[17px] font-normal text-2xl leading-[28px] text-center"
+          className=" max-w-[560px] mx-auto font-bal text-white pt-[14px] pb-[17px] font-normal sm:text-2xl text-lg  sm:leading-[28px] text-center"
         >
           In $DINO, we want to build a very strong community, that’s why we are
           going to have a lot of games and crypto tips in our Telegram and

@@ -7,11 +7,11 @@ import {
 import Faqlayer1 from "../assets/images/faqlayer1.webp";
 function Icon({ id, open }) {
   return (
-    <div className="relative ">
+    // <div className="relative ">
       <svg
         className={`${
           id === open ? "rotate-180" : "rotate-0"
-        }  sm:mr-12   transition-transform`}
+        }    transition-transform`}
         width="36"
         height="36"
         viewBox="0 0 36 36"
@@ -30,7 +30,7 @@ function Icon({ id, open }) {
           fill="#0A4740"
         />
       </svg>
-    </div>
+    // </div>
   );
 }
 function Faq() {
@@ -50,7 +50,7 @@ function Faq() {
         >
           <div data-aos="fade-right" data-aos-duration="1000">
             <Accordion
-              className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] bg-[#09655A] ${
+              className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:px-[53px] bg-[#09655A] ${
                 open === 1 ? "rounded-[26px] sm:rounded-[45px] " : "rounded-full"
               }`}
               open={open === 1}
@@ -60,11 +60,11 @@ function Faq() {
                data-aos-duration="1000"
                data-aos="fade-left"
                 onClick={() => handleOpen(1)}
-                className="font-bal text-sm sm:text-base md:text-xl text-start font-bold text-white w-full justify-between"
+                className="font-bal text-base sm:text-xl text-start font-bold text-white w-full justify-between"
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs  sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              <AccordionBody className="font-bal text-sm sm:text-base font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
                 sapien vel cursus ultricies?
               </AccordionBody>
@@ -73,7 +73,7 @@ function Faq() {
           <div   data-aos-duration="1000"
              data-aos="fade-right">
             <Accordion
-              className={`border-[#C5C5C5] border mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] bg-[#09655A] sm:ps-[26px] ${
+              className={`border-[#C5C5C5] border mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] bg-[#09655A] sm:px-[53px] ${
                 open === 2 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 2}
@@ -81,12 +81,12 @@ function Faq() {
             >
               <AccordionHeader
                 onClick={() => handleOpen(2)}
-                className="font-bal text-sm sm:text-base md:text-xl text-start font-bold text-white"
+                className="font-bal text-base sm:text-xl text-start font-bold text-white"
               >
                 {" "}
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              <AccordionBody className="font-bal text-sm sm:text-base font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
                 sapien vel cursus ultricies?
               </AccordionBody>
@@ -95,7 +95,7 @@ function Faq() {
           <div   data-aos-duration="1000"
              data-aos="fade-left">
             <Accordion
-              className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] bg-[#09655A] sm:pb-[27px] sm:ps-[26px] ${
+              className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] bg-[#09655A] sm:pb-[27px] sm:px-[53px] ${
                 open === 3 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 3}
@@ -103,11 +103,11 @@ function Faq() {
             >
               <AccordionHeader
                 onClick={() => handleOpen(3)}
-                className="font-bal text-sm sm:text-base md:text-xl text-start font-bold text-white"
+                className="font-bal text-base sm:text-xl text-start font-bold text-white"
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              <AccordionBody className="font-bal text-sm sm:text-base font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
                 sapien vel cursus ultricies?
               </AccordionBody>
@@ -116,7 +116,7 @@ function Faq() {
           <div  data-aos-duration="1000"
              data-aos="fade-right">
             <Accordion
-              className={`border-[#C5C5C5] border mb-4 rounded-full bg-[#09655A] p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+              className={`border-[#C5C5C5] border mb-4 rounded-full bg-[#09655A] p-3 sm:pt-[30px] sm:pb-[27px] sm:px-[53px] ${
                 open === 4 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 4}
@@ -124,11 +124,11 @@ function Faq() {
             >
               <AccordionHeader
                 onClick={() => handleOpen(4)}
-                className="font-bal text-sm sm:text-base md:text-xl text-start font-bold text-white"
+                className="font-bal text-base sm:text-xl text-start font-bold text-white"
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              <AccordionBody className="font-bal text-sm sm:text-base font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
                 sapien vel cursus ultricies?
               </AccordionBody>
@@ -137,7 +137,7 @@ function Faq() {
           <div data-aos-duration="1000"
              data-aos="fade-left">
             <Accordion
-              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] mb-4 sm:pb-[27px] sm:ps-[26px] ${
+              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] mb-4 sm:pb-[27px] sm:px-[53px] ${
                 open === 5 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 5}
@@ -145,11 +145,11 @@ function Faq() {
             >
               <AccordionHeader
                 onClick={() => handleOpen(5)}
-                className="font-bal text-sm sm:text-base md:text-xl text-start font-bold text-white"
+                className="font-bal text-base sm:text-xl text-start font-bold text-white"
               >
                 Maecenas laoreet, sapien vel cursus ultricies?
               </AccordionHeader>
-              <AccordionBody className="font-bal text-xs sm:text-sm md:text-base font-medium text-white max-w-[600px] pt-3 ">
+              <AccordionBody className="font-bal text-sm sm:text-base font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
                 sapien vel cursus ultricies?
               </AccordionBody>

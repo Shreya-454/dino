@@ -15,7 +15,6 @@ module.exports = {
       animation: {
         'herodino2': 'herobike 10s linear  infinite',
         'herodino1': 'herobike2 10s linear  infinite',
-        'footer-dino': 'herobike3 20s linear  infinite',
         'herobounceanimnate': 'herobounce 1s linear  infinite alternate',
         'aeroplaneanimation': 'aeroplane 5s linear  infinite alternate',
       },
@@ -24,10 +23,7 @@ module.exports = {
           '0%': { transform: 'translateX(0) rotate3d(1, 1, 1, 0deg)' },
           '100%': { transform: 'translateX(-100vw) rotate3d(1, 1, 1, 45deg)' }
         },
-        herobike3: {
-          '0%': { transform: 'translateX(0) ' },
-          '100%': { transform: 'translateX(-100vw) ' }
-        },
+       
         herobike2: {
           '0%': { transform: 'translateX(0)  ' },
           '100%': { transform: 'translateX(328px) ' }
@@ -37,8 +33,8 @@ module.exports = {
           '100%': { transform: 'translateY(-3%) ' }
         },
         aeroplane: {
-          '0%': { transform: 'rotateX(0)  ' },
-          '100%': { transform: 'rotateX(40deg) ' }
+          '0%': { transform: 'translateX(0)  ' },
+          '100%': { transform: 'translateX(40px) ' }
         },
       }
     },
