@@ -8,13 +8,13 @@ import footerdino from "../assets/images/footerdino.webp";
 const Footer = () => {
   return (
     <div>
-      <div className="relative mt-[-1px] lg:pt-[248px] md:pt-[150px] sm:pt-[100px] pt-[100px] pb-[100px] lg:pb-[267px] md:pb-[150px] bg-[#0A4740]">
+      <div className="relative mt-[-1px] lg:pt-[248px] md:pt-[150px] sm:pt-[100px] pt-16 pb-[100px] lg:pb-[267px] md:pb-[150px] bg-[#0A4740]">
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
-          className="container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10 flex flex-col lg:gap-[33px] gap-[20px] justify-center items-center"
+          className="container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10 flex flex-col lg:gap-[33px] md:gap-[20px] gap-2 justify-center items-center"
         >
-          <h2 className=" ff-lucky text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_3px_0px_#000]">
+          <h2 className=" ff-lucky sm:text-[80.366px] text-6xl text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_3px_0px_#000]">
             D<span className="text-[#23AAAC]">i</span>
             <span className="text-[#D45B07]">n</span>
             <span className="text-[#8EC627]">o</span>
@@ -22,7 +22,7 @@ const Footer = () => {
             <span className="text-[#8F78D2]">F</span>
             <span className="text-[#8EC627]">G</span>
           </h2>
-          <p className="text-[14px] font-normal font-bal text-center text-white max-w-[376px] leading-[122%]">
+          <p className="text-[14px] font-normal font-bal text-center text-white max-w-[376px] sm:leading-[122%]">
             Sed tempus pretium est, vestibulum dapibus mauris viverra id.
             Curabitur feugiat porta lorem,{" "}
           </p>

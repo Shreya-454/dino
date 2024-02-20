@@ -137,7 +137,7 @@ function Faq() {
           <div data-aos-duration="1000"
              data-aos="fade-left">
             <Accordion
-              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] mb-4 sm:pb-[27px] sm:px-[53px] ${
+              className={`border-[#C5C5C5] border bg-[#09655A] rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:px-[53px] ${
                 open === 5 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
               }`}
               open={open === 5}
