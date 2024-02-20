@@ -46,7 +46,7 @@ const Roadmap = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="max-sm:after:absolute max-sm:relative after:bg-[#8EC627]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[630px] sm:ml-[300px] sm:mt-[272px] mt-[50px]"
+          className="max-sm:after:absolute max-sm:relative after:bg-[#8EC627]  max-sm:after:border-2 after:border-white  after:w-[30px] after:h-[30px] after:rounded-full after:left-[5.5%] after:top-[10%] max-w-[440px] lg:max-w-[700px] sm:ml-[300px] sm:mt-[272px] mt-[50px]"
         >
           <div className="max-sm:flex-col flex sm:items-center max-sm:ml-[90px] gap-[45px]">
             <h3 className=" text-[#8EC627] text-[100px] lg:text-[200px] font-chewy leading-[100px] lg:leading-[261px] drop-shadow-[0px_18px_7px_#00000040]">
